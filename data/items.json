@@ -1,0 +1,20 @@
+{
+    "items":[
+        {
+            "titre": "livre 1",
+            "auteur": "Jules Verne",
+            "synonpsis": "Ce livre est trop bien",
+            "type": "book",
+            "price": 2,
+            "img": "https://static.fnac-static.com/multimedia/Images/FR/NR/93/20/78/7872659/1540-1/tsp20210226072341/Un-hivernage-dans-les-glaces.jpg"
+        },
+        {
+            "titre": "livre 2",
+            "auteur": "Tolkien",
+            "synonpsis": "lorem ipsum",
+            "type": "book",
+            "price": 3,
+            "img": "https://static.fnac-static.com/multimedia/FR/Images_Produits/FR/fnac.com/Visual_Principal_340/2/2/4/9780261102422/tsp20120921095159/The-silmarillion.jpg"
+        }
+    ]
+}

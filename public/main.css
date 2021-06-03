@@ -1,0 +1,36 @@
+#login{
+    margin-top: 4rem;
+    margin-bottom: 4rem;
+    width: 50%;
+    margin-left: 25%;
+    text-align: center;
+}
+
+#register{
+    margin-top: 4rem;
+    margin-bottom: 4rem;
+    width: 50%;
+    margin-left: 25%;
+    text-align: center;
+}
+
+#logged{
+    margin-top: 4rem;
+    margin-bottom: 4rem;
+    width: 50%;
+    margin-left: 25%;
+    text-align: center;
+}
+
+label{
+    display: block;
+    height: 2rem;
+}
+
+label input{
+    float: right;
+}
+
+.error{
+    color: red;
+}

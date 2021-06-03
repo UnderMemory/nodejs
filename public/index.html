@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset='utf-8'>
+  <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+  <title>Node js</title>
+  <meta name='viewport' content='width=device-width, initial-scale=1'>
+  <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+  <script src='jquery.js'></script>
+  <script src='main.js'></script>
+</head>
+
+<body>
+  <div id="loading">
+    Chargement en cours...
+  </div>
+  <div id="login" style="display: none;">
+    <h3>Connexion requise</h3>
+    <label>Login: <input type="text" class="login" name="login" /></label>
+    <label>Password: <input type="password" class="password" name="password" /></label>
+    <p class="error"></p>
+    <button id="login-btn">LOGIN !</button>
+  </div>
+
+
+  <button id="signUp">S'inscrire</button>
+
+  <div id="register" style="display: none;">
+    <h3>S'inscrire</h3>
+    <label>Email: <input type="text" class="email" name="email" /></label>
+    <label>Login: <input type="text" class="login" name="login" /></label>
+    <label>Password: <input type="password" class="password" name="password" /></label>
+    <p class="error"></p>
+    <button id="register-btn">LOGIN !</button>
+  </div>
+
+  <div id="logged" style="display: none">
+    <h3>Page par défaut</h3>
+    <button id="btn-test">Se Connecter</button>
+  </div>
+
+  <div>
+    <h3>Liste : </h3>
+    <div id="items"></div>
+  </div>
+
+  <!-- <button class="m-3" id="showBooks">Voir livres</button>
+  <div class="content" id='books'></div> -->
+
+
+</body>
+
+</html>

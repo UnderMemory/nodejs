@@ -1,0 +1,16 @@
+{
+    "products":[
+      {
+        "_id": 1,
+        "name": "Flash McQueen",
+        "price": 1,
+        "description": "Une voiture miniature du film"
+      },
+      {
+        "_id": 2,
+        "name": "Sally",
+        "price": 2,
+        "description": "Une voiture miniature du film"
+      }
+    ]
+  }
